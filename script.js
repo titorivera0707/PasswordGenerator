@@ -8,7 +8,7 @@ function writePassword(event) {
   event.preventDefault();
   
   var amountPrompt = prompt('How many characters long?(8-24)');
-if (amountPrompt >= 8 && amountPrompt <= 24){
+if (amountPrompt >= 8 && amountPrompt <= 128){
   console.log(amountPrompt);
 }
 else {
