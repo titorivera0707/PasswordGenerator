@@ -7,12 +7,13 @@ var charNumber = "0123456789"
 function writePassword(event) {
   event.preventDefault();
   
-  var amountPrompt = prompt('How many characters long?(8-24)');
+  var amountPrompt = prompt('How many characters long?(8-128)');
 if (amountPrompt >= 8 && amountPrompt <= 128){
   console.log(amountPrompt);
 }
 else {
   alert('Invalid amount of characters.');
+  return writePassword();
 }
 
 var lowerCasePrompt = confirm('Would you like to use lowercase letters?');
