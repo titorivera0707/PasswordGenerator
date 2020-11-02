@@ -14,6 +14,6 @@
 
 ### Screenshots
 
-*![Home Screen](./images/first.png)
-*![First Alert after pressing button](./images/second.png)
-*![Password result(128 characters)](./images/third.png)
+*![Home Screen](./first.png)
+*![First Alert after pressing button](./second.png)
+*![Password result(128 characters)](./third.png)
